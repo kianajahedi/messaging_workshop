@@ -1,4 +1,4 @@
-FROM registry.ucoder.ir/continuumio/anaconda3:latest
+FROM continuumio/anaconda3:latest
 MAINTAINER Mohamadmehdi Kharatizadeh <info@ucoder.ir>
 
 EXPOSE 8888/tcp
