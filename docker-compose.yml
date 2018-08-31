@@ -5,7 +5,7 @@ services:
     ports:
       - "15672:15672"
   jupyter:
-    build: .
+    image: 'quay.io/arcana261/messaging_workshop'
     ports:
       - "8888:8888"
     volumes:
